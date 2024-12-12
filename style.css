@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1 {
+    position: fixed;
+    top: 0;
+    background: rgb(255, 234, 0);
+    width: 100vw;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h2{
+    background-color: rgb(0, 195, 239);
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+/* .input-container{
+    margin-top: 60px;
+    background-color: rgb(0, 195, 239);
+    border: 2px solid lightcoral;
+    border-radius: 20px;
+    box-shadow: 0px 4px 0px 1px rgb(219, 113, 113);
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+    align-items: center;
+    justify-content: center;
+} */
+.input-container input[name="input-img"]{
+    background-color: rgb(0, 195, 239);
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* .input-container button{
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    font-style: oblique;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+} */
+
+.input-container img {
+    display: block;  /* Ensures image is block-level to prevent unwanted spacing */
+    background-color: transparent;  /* Ensures background is transparent */
+    object-fit: contain;  /* Ensures the image fits well inside the container */
+    margin-top: 10px;  /* Adds spacing between the button and the image */
+}
